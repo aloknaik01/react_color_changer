@@ -1,0 +1,11 @@
+/* Global resets + font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+  --bg: linear-gradient(135deg,#0f172a,#0b1221);
+  --accent: #667eea;
+  --textColor: #fff;
+}
+
+* { box-sizing: border-box; }
+html,body,#root { height: 100%; margin: 0; font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background: var(--bg); color: #e6eef8; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
